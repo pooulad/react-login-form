@@ -1,3 +1,5 @@
+In this project, we create a registration page using react, which is fully responsive
+
 
 
 https://user-images.githubusercontent.com/86445458/123912184-f511c580-d991-11eb-9fd0-2583d25d1b76.mp4
