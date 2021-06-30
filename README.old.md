@@ -1,3 +1,5 @@
+In this project, we create a registration page using react, which is fully responsive
+
 So cool . I think try it😉🤩
 
 
