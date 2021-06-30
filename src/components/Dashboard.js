@@ -1,6 +1,7 @@
 import React from 'react';
-import "./Home.css";
+import "./Dashboard.css";
 import mylogo from "./pooulad.png";
+import {Link} from "react-router-dom"
 
 function Dashboard() {
     return (
@@ -11,6 +12,9 @@ function Dashboard() {
             <div className="main">
                 <h1>welcome to dashboard page</h1>
             </div>
+            <Link to="/">
+                <button className="btnBack">Home</button>
+            </Link>
         </div>
     )
 }
