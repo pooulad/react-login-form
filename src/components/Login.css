@@ -1,0 +1,165 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  .register{
+      border-radius: 10px;
+      width: 90%;
+      background-color: white;
+      margin: 40px auto;
+      height: auto;
+  }
+  .form_div{
+      margin-top:0px;
+  }
+  .form{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+  .input{
+      margin: 5px auto;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 5px;
+      width: 70%;
+      text-align: center;
+      border-radius: 10px;
+      outline: none;
+      border: none;
+      background-color: #fca311;
+  }
+  .input::placeholder{
+      font-weight: 500;
+      color: #ffffff;
+  }
+  .form_image{
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-content: center;
+      margin: 50px auto;
+  }
+  .form_image img{
+      width: 40%;
+      border-radius: 50%;
+      margin: -40px auto;
+      z-index: 10;
+  }
+  .submitBtn{
+      border: 1px solid black;
+      width: 70% !important;
+      margin: 10px auto;
+      justify-content: center;
+      display: flex;
+      flex-direction: row;
+  }
+  .btnBack{
+      margin: 5px auto;
+      padding: 5px;
+      cursor: pointer;
+      width: 30%;
+      padding: 5px;
+      cursor: pointer;
+      width: 140px;
+      margin: 5px auto;
+      font-size: 20px;
+      font-weight: 500;
+      padding: 5px;
+      text-align: center;
+      border-radius: 10px;
+      outline: none;
+      border: none;
+      color: white;
+      background-color: #9211fc;
+  }
+  .btnSubmit{
+      padding: 5px;
+      cursor: pointer;
+      width: 20%;
+      margin: 5px auto;
+      font-size: 20px;
+      font-weight: 600;
+      padding: 5px;
+      text-align: center;
+      border-radius: 10px;
+      outline: none;
+      border: none;
+      color: white;
+      transition: all 500ms ease;
+      background-color: #48fc11;
+  }
+  .btnSubmit:hover{
+      transform: translateY(4px);
+  }
+  
+  
+  
+  @media(min-width:786px){
+      .register{
+          border-radius: 20px;
+          display: grid;
+          grid-template-columns: 1fr 3fr;
+      }
+      .input{
+          margin: 20px auto;
+          font-size: 20px;
+          font-weight: 500;
+          padding: 10px;
+          width: 60%;
+          text-align: center;
+          border-radius: 10px;
+          outline: none;
+          border: none;
+          background-color: #fca311;
+      }
+      .input::placeholder{
+          font-weight: 500;
+          color: #ffffff;
+      }
+      .form_image{
+          margin-left: 20px;
+      }
+      .form_image img{
+          width: 100%;
+          margin: 5px auto;
+      }
+      .btnBack{
+          margin: 5px auto;
+          padding: 5px;
+          cursor: pointer;
+          width: 50%;
+          padding: 5px;
+          cursor: pointer;
+          width: 140px;
+          margin: 5px auto;
+          font-size: 20px;
+          font-weight: 500;
+          padding: 5px;
+          text-align: center;
+          border-radius: 10px;
+          outline: none;
+          border: none;
+          color: white;
+          background-color: #9211fc;
+      }
+      .btnSubmit{
+          padding: 5px;
+          cursor: pointer;
+          width: 20%;
+          margin: 5px auto;
+          font-size: 20px;
+          font-weight: 600;
+          padding: 5px;
+          text-align: center;
+          border-radius: 10px;
+          outline: none;
+          border: none;
+          color: white;
+          transition: all 500ms ease;
+          background-color: #48fc11;
+      }
+      .btnSubmit:hover{
+          transform: translateY(4px);
+      }
+  }
