@@ -5,7 +5,7 @@
 }
 .home {
   text-align: center;
-  margin-top: 40vh;
+  margin-top: 30vh;
 }
 .main {
   color: #240046;
@@ -69,13 +69,8 @@
     transform: rotate(360deg);
   }
 }
-.header_logo {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  animation: rotate 3s linear infinite;
-}
 .header_logo img {
-  width: 70px;
+  width: 100px;
+  animation: rotate 3s linear infinite;
   border-radius: 50%;
 }
