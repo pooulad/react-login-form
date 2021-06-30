@@ -5,8 +5,9 @@
   box-sizing: border-box;
 }
 body{
+  background-color: #fca311;
   font-family: 'Merriweather Sans', sans-serif;
 }
 .App{
-  text-align: center;
+  /* text-align: center; */
 }

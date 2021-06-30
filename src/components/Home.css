@@ -1,0 +1,56 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.home {
+  text-align: center;
+  margin-top: 40vh;
+}
+.main {
+  color: #240046;
+  font-weight: 800;
+  margin: 15px;
+}
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.registerBtn {
+  background-color: #240046;
+  color: white;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+.loginBtn {
+  color: #240046;
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid #240046;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header_logo {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  animation: rotate 3s linear infinite;
+}
+.header_logo img {
+  width: 70px;
+  border-radius: 50%;
+}
